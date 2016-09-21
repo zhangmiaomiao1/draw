@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画图</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="jquery-3.1.0.js"></script>
+    <script src="huatu.js"></script>
+    <script src="huabuq.js"> </script>
+</head>
+<body>
+<div class="con">
+    <div class="top">
+         <div class="top1">
+             <p>文件</p>
+             <ul>
+                 <li class="xinjian">新建</li>
+                 <li class="houtui">返回</li>
+                 <li class="baocun">保存</li>
+             </ul>
+         </div>
+          <div class="left">
+              <div class="zi1">
+                  <p>选择形状</p>
+              </div>
+              <ul class="type">
+                  <li data-role="line">直线</li>
+                  <li data-role="rect">矩形</li>
+                  <li data-role="circle">圆</li>
+                  <li data-role="bian" class="bian">多边形</li>
+                  <li data-role="jiao" class="jiao">多角形</li>
+                  <li data-role="pen" class="pen">铅笔</li>
+
+              </ul>
+          </div>
+          <div class="middle">
+              <p>选择填充</p>
+              <ul class="style">
+                  <li data-role="stroke">边框</li>
+                  <li data-role="fill">填充</li>
+              </ul>
+          </div>
+          <div class="bottom">
+            <p>颜色</p>
+            <ul class="bigcolor">
+                <li><input type="color" class="stroke">边框</li>
+                <li><input type="color" class="fill">填充</li>
+            </ul>
+        </div>
+          <div class="bottom1">
+              <p>线条样式</p>
+              <ul>
+                  <li data-role="1" class="xi">细</li>
+                  <li data-role="5" class="xi">中</li>
+                  <li data-role="10" class="xi">粗</li>
+              </ul>
+              <input type="number" width="40" class="sha">
+          </div>
+          <div class="bottom2">
+              <p class="clear">摖除</p>
+          </div>
+          <!--<div class="bottom3"></div>-->
+          <!--<input type="button" name="后退" value="后退" class="houtui">-->
+    </div>
+    <div class="foot">
+        <canvas width="950px" height="650px">
+            您的浏览器不支持画布
+        </canvas>
+        <div class="copy"></div>
+        <span class="xp" data-role="clear"></span>
+    </div>
+    <img src="3.png" alt="" class="one">
+    <img src="3.png" alt="" class="two">
+    <img src="3.png" alt="" class="three">
+    <img src="3.png" alt="" class="five">
+    <img src="4.png" alt="" class="four">
+
+</div>
+
+</body>
+</html>
